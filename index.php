@@ -30,7 +30,7 @@
 			<a href="input.php" class="st-button">人気順</a><br>
 
 			<h2 id="review">水族館レビュー</h2>
-			<a href="view.php" class="st-button">みんなの思い出をみる</a>
+			<a href="view.php" class="st-button">思い出をみる</a>
 			<br>
 			<a href="input.php" class="st-button">思い出を記録する</a>
 

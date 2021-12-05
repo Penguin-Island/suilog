@@ -1,0 +1,295 @@
+header{
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    border-bottom: 0.4px solid #595959;
+}
+
+.title-a{
+    color: #595959;
+    text-decoration: none;
+}
+
+.menu-item {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu-item-a{
+    color: #595959;
+    text-decoration: none;
+}
+
+.head-search{
+  display: inline-block;
+  border: none;
+  background-color: rgb(209, 243, 237);
+  margin-left: 30px;
+  line-height: 1.2;       
+  border-radius: 5px;
+  height: 25px;
+  width: 180px;            
+  box-sizing: border-box; 
+}
+
+.head-submit{
+  display: inline-block;
+  border: none;
+  margin-left: 5px;
+    font-size: 10pt;       
+    text-align: center;      
+    cursor: pointer;     /* カーソル   */
+    padding: 5px 10px;  
+    background: #f7f2f2;
+    color: #595959;    
+    line-height: 1em;         
+    opacity: 1;           /* 透明度     */
+    transition: .3s;         /* なめらか変化 */
+    border-radius: 5px;   
+    outline: none;    
+    text-decoration: none;
+} 
+
+body{
+    font-family: "メイリオ" ;
+    color: #595959;
+    background-color: white;
+    margin: 0;
+}
+
+.wave{
+    margin: 0;
+    padding: 0;
+}
+
+canvas{
+    /* デフォルトがinlineだからblockにして隙間をなくす */
+    display:block;
+}
+
+.in-submit{
+    /*background-color: rgb(253, 222, 227);*/
+    background-color: #ffecf4;
+    color: #595959; 
+    border:0;
+    outline:none;
+    font-size: 15pt;
+    padding:15px 50px;
+    border-radius: 10px;
+    /*transition: background-color 300ms,border-radius 1s;*/
+}
+
+/*input[type=submit]:hover{
+    background-color: red;
+    border:0;
+    outline:none;
+    padding:5px 10px;
+    border-radius: 0px
+}*/
+
+h2{
+    padding:5px 10px;
+}
+
+.st-button{
+    display: inline-block;
+    font-size: 15pt;       
+    text-align: center;      
+    cursor: pointer;     /* カーソル   */
+    padding: 15px 50px;  
+    background: #f7f2f2;
+    color: #595959;    
+    line-height: 1em;         
+    opacity: 1;           /* 透明度     */
+    transition: .3s;         /* なめらか変化 */
+    border-radius: 10px;       
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.st-button:hover{
+    opacity       : 0.8;         /* カーソル時透明度 */
+  }
+
+  .area-button{
+    display: inline-block;
+    font-size: 15pt;       
+    text-align: center;      
+    cursor: pointer;     
+    padding: 15px 50px;   
+    background: #f7f2f2;    
+    color: #595959;    
+    line-height: 1em;         
+    opacity: 1;           
+    transition: .3s;        
+    border-radius: 10px;       
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.area-button:hover{
+    opacity       : 0.8;       
+  }
+
+
+/*ページ*：みんなの思い出をみる*/
+
+
+.grad-btn {
+    /*.grad-btnのCSSは表示/非表示の動作には関係ないので、ご自由にどうぞ。*/
+  font-size: 13pt;        /* 文字サイズ */
+  text-align: center;      /* 文字位置   */
+  cursor: pointer;     /* カーソル   */
+  padding: 13px 10px;   /* 余白       */
+  background: #f7f2f2;     /* 背景色     */
+  color: #595959;     /* 文字色     */
+  line-height: 1em;         /* 1行の高さ  */
+  opacity: 1;           /* 透明度     */
+  transition: .3s;         /* なめらか変化 */
+  border-radius: 5px;        /*縁を丸める*/
+  text-decoration: none;
+  width: 170px;
+}
+.grad-btn::before {
+  content: "続きを見る"
+}
+.grad-item {
+  position: relative;
+  overflow: hidden;
+  height: 500px; /*隠した状態の高さ*/
+}
+.grad-item::before {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px; /*グラデーションで隠す高さ*/
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  content: "";
+}
+.grad-trigger {
+  display: none; /*チェックボックスは常に非表示*/
+}
+.grad-trigger:checked ~ .grad-btn::before {
+  content: "閉じる" /*チェックされていたら、文言を変更する*/
+}
+.grad-trigger:checked ~ .grad-item {
+  height: auto; /*チェックされていたら、高さを戻す*/
+}
+.grad-trigger:checked ~ .grad-item::before {
+  display: none; /*チェックされていたら、grad-itemのbeforeを非表示にする*/
+}
+
+
+/*ページ：思い出を記録する*/
+
+
+/*フォーム単体全体の設定*/
+div.form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+}
+
+/*水族館のなまえ選択の設定*/
+.name{
+    line-height: 1.2;        /* 行の高さ */
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;             /* 横幅いっぱいにする */
+    box-sizing: border-box;  /* ※これがないと横にはみ出る */
+}
+
+/*日付選択の設定*/
+.date{
+    line-height: 1.2;        /* 行の高さ */
+    border: none; 
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;            
+    box-sizing: border-box; 
+}
+
+/*テキストエリアの設定*/
+textarea{
+    font-family: "メイリオ" ;
+    color: #595959;
+    line-height: 1.4;        /* 行の高さ */
+    border: none; 
+    border-radius: 10px;
+    height: 120px;
+    width: 800px;             /* 横幅いっぱいにする */
+    box-sizing: border-box;  /* ※これがないと横にはみ出る */
+    vertical-align: top;
+}
+
+div.all-form{
+    background-color: rgb(209, 243, 237);
+    border-radius: 10px;
+    padding:20px 80px;
+    margin-top: 30px;
+}
+
+div.button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*レーティング*/
+.fa{
+    font-size:30px;
+  }
+  .rating{
+    font-size:0;
+    width:140px;
+  }
+  .fa-star{
+      content: '★';
+  }
+
+  .fa-star-o{
+      content: '☆';
+  }
+
+div.container{
+    margin: 0 auto;
+    padding: 70px 20px 0 20px;
+     
+}
+
+
+/*エリアで探す*/
+
+
+h2 {
+    position: relative;
+  }
+  
+  h2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background: -webkit-repeating-linear-gradient(-45deg, #c4e9e6, #c4e9e6 2px, #fff 2px, #fff 4px);
+    background: repeating-linear-gradient(-45deg, #c4e9e6, #c4e9e6 2px, #fff 2px, #fff 4px);
+  }
+
+div.basho{
+    background: #f7f2f2;
+}

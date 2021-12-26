@@ -12,6 +12,15 @@
   <?php
   $json = file_get_contents(__DIR__ . '/area.json');
   $arr = json_decode($json, true); ?>
+  <?php
+  try {
+    $db = new PDO('mysql:dbname=place;host=127.0.0.1;charset=utf8', 'root', 'yz2576zs');
+  } catch (PDOException $e) {
+    echo 'DB接続エラー: ' . $e->getMessage();
+  }
+  $stmt = $db->prepare('SELECT review FROM places WHERE place = ? ORDER BY id DESC', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
+  ?>
+
 
   <div class="wave">
     <div class="container">
@@ -28,6 +37,17 @@
             <p>HP：<a href="<?= $detail['url'] ?>"> <?= $detail['url'] ?></a></p>
             <p>所在地：<?= $detail['address'] ?></p>
             <iframe src="<?= $detail['map'] ?>" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="detail-review" style="background: red">
+              <?php $stmt->bindValue(1, $detail['name']);
+              $stmt->execute();
+              while ($result = $stmt->fetch()) { ?>
+                <div class="review-item" style="background: white; margin: 10px;">
+                  <?= htmlspecialchars($result['review'], ENT_QUOTES | ENT_SUBSTITUTE, "UTF-8"); ?>
+                </div>
+              <?php
+              }
+              ?>
+            </div>
           </div>
         <?php
         }
@@ -42,10 +62,3 @@
 </body>
 
 </html>
-
-<!-- <div class="basho">
-        <h3></h3>
-        <p></p>
-        <p>HP：<a href=></a></p>
-        <p>所在地：</p>
-      </div> -->

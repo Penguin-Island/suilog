@@ -4,13 +4,12 @@
         <ul class="menu-group">
             <li class="menu-item"><a href="/suilog/" class="menu-item-a">Top</a></li>
             <li class="menu-item"><a href="/suilog/" class="menu-item-a">さがす</a></li>
-            <li class="menu-item"><a href="/suilog/#review" class="menu-item-a">レビュー</a></li>
+            <li class="menu-item"><a href="/suilog/#review" class="menu-item-a">おもいで</a></li>
         </ul>
     </nav>
-  
-    <form action="" method="get">
-            <input class="head-search" type="text" name="search" value="" >
-            <input class="head-submit" type="submit" name="" value="さがす">
-    </form>
 
+    <form action="" method="get">
+        <input class="head-search" type="text" name="search" value="">
+        <button class="head-submit"><i class="bi bi-search"></i></button>
+    </form>
 </header>

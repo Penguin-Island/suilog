@@ -210,7 +210,6 @@ label{
     line-height: 1.2;        /* 行の高さ */
     border-radius: 5px;
     height: 25px;
-    width: 200px;             /* 横幅いっぱいにする */
     box-sizing: border-box;  /* ※これがないと横にはみ出る */
 }
 

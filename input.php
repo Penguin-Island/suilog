@@ -9,6 +9,9 @@
 
 <body>
 	<?php require __DIR__ . '/header.php'; ?>
+	<?php
+	$json = file_get_contents(__DIR__ . '/area/area.json');
+	$arr = json_decode($json, true); ?>
 
 	<div class="wave">
 		<div class="container">
@@ -17,7 +20,23 @@
 				<div class="all-form">
 					<div class="form">
 						<label for="name">水族館</label>
-						<input type="text" id="name" name="name" class="name" maxlength="255" placeholder="〇△水族館">
+						<select name="name" id="name" class="name">
+							<?php
+							foreach ($arr as $data) {
+							?>
+								<optgroup label="<?= $data['prefecture'] ?>">
+									<?php
+									foreach ($data['aquariums'] as $detail) {
+									?>
+										<option value="<?= $detail['name'] ?>"><?= $detail['name'] ?></option>
+									<?php
+									}
+									?>
+								</optgroup>
+							<?php
+							}
+							?>
+						</select>
 					</div>
 
 					<div class="form">

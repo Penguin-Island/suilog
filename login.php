@@ -8,12 +8,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $db = new PDO('mysql:dbname=place;host=127.0.0.1;charset=utf8', 'root', 'yz2576zs');
         $stmt = $db->prepare('SELECT password FROM users WHERE username=?', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
         $stmt->bindValue(1, $_POST['username']);
+        $stmt->execute();
         $result = $stmt->fetch();
         if ($result === false) {
             echo 'ログイン失敗';
             exit;
         } else {
-            password_verify($POST['password'], $result['password']);
+            password_verify($_POST['password'], $result['password']);
         }
     } catch (PDOException $e) {
         echo 'DB接続エラー: ' . $e->getMessage();

@@ -36,6 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="login-back">
         <div class="container">
             <div class="card">
+                <h1>ログイン</h1>
                 <form method="POST">
                     <label for="username">ユーザー名</label>
                     <input type="text" id="username" name="username">

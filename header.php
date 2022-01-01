@@ -12,4 +12,8 @@
         <input class="head-search" type="text" name="search" value="">
         <button class="head-submit"><i class="bi bi-search"></i></button>
     </form>
+
+    <ul class="login-group">
+        <li class="login-item"><a href="/suilog/login.php" class="login-item-a">ログイン</a></li>
+    </ul>
 </header>

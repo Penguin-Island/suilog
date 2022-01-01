@@ -10,6 +10,31 @@ header {
   z-index: 2;
 }
 
+.login-back {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/sarah-lee-QURU8IY-RaI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  max-width: 300px;
+  padding: 50px 10px;
+  margin: 0 auto;
+  background: #fff;
+  color: #000;
+  text-shadow: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card input {
+  margin: 20px;
+  outline: none;
+}
+
 .full {
   width: 100%;
   height: 100vh;

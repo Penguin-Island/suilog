@@ -15,5 +15,6 @@
 
     <ul class="login-group">
         <li class="login-item"><a href="/suilog/login.php" class="login-item-a">ログイン</a></li>
+        <li class="login-item"><a href="/suilog/regist.php" class="login-item-a">新規登録</a></li>
     </ul>
 </header>

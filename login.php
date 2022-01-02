@@ -1,8 +1,9 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    if (!isset($_POST['username'], $_POST['password'])) {
+    if (empty($_POST['username']) || empty($_POST['password'])) {
         http_response_code(400);
-        exit();
+        echo 'ログイン失敗';
+        exit;
     }
     try {
         $db = new PDO('mysql:dbname=place;host=127.0.0.1;charset=utf8', 'root', 'yz2576zs');
@@ -14,12 +15,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             echo 'ログイン失敗';
             exit;
         } else {
-            password_verify($_POST['password'], $result['pass']);
+            if (password_verify($_POST['password'], $result['pass'])) {
+                header('Location: index.php');
+            } else {
+                echo 'ログイン失敗';
+                exit;
+            }
         }
     } catch (PDOException $e) {
         echo 'DB接続エラー: ' . $e->getMessage();
     }
-    header('Location: index.php');
 }
 ?>
 

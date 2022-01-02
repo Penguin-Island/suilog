@@ -1,6 +1,7 @@
 <?php
+require ( __DIR__ . '/config.php');
 try{
-    $db = new PDO('mysql:dbname=place;host=127.0.0.1;charset=utf8', 'root', 'yz2576zs');
+    $db = new PDO($datasource, $user, $password);
 } catch (PDOException $e) {
     echo 'DB接続エラー: ' . $e->getMessage();
 }

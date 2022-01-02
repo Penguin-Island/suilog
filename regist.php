@@ -1,8 +1,9 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    if (!isset($_POST['n-username'], $_POST['n-password'])) {
+    if (empty($_POST['n-username']) || empty($_POST['n-password'])) {
         http_response_code(400);
-        exit();
+        echo '登録失敗';
+        exit;
     }
     try {
         $db = new PDO('mysql:dbname=place;host=127.0.0.1;charset=utf8', 'root', 'yz2576zs');
@@ -11,10 +12,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->execute();
         $result = $stmt->fetch();
         if ($result === false) {
-            $stmt = $db->prepare('INSERT INTO users (username, pass) VALUES (:username, :pass)');
-            $stmt->bindValue(':username', $_POST['n-username']);
-            $stmt->bindValue(':pass', password_hash($_POST['n-password'], PASSWORD_DEFAULT));
-            $stmt->execute();
+            if (preg_match('/^(?=.*[A-Z])(?=.*?\d)[a-zA-Z0-9]{8,100}$/', $_POST['n-password'])) {
+                    $stmt = $db->prepare('INSERT INTO users (username, pass) VALUES (:username, :pass)');
+                    $stmt->bindValue(':username', $_POST['n-username']);
+                    $stmt->bindValue(':pass', password_hash($_POST['n-password'], PASSWORD_DEFAULT));
+                    $stmt->execute();
+                    header('Location: index.php');
+            } else {
+                    echo 'パスワードは8文字以上100字以下、大文字アルファべットを少なくとも1つ、半角英数字の両方が含まれているもののみ使用できます。';
+                exit;
+            }
         } else {
             echo 'そのユーザーネームは使用できません';
             exit;
@@ -22,7 +29,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } catch (PDOException $e) {
         echo 'DB接続エラー: ' . $e->getMessage();
     }
-    header('Location: index.php');
 }
 ?>
 

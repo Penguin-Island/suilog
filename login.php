@@ -1,4 +1,5 @@
 <?php
+session_start();
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($_POST['username']) || empty($_POST['password'])) {
         http_response_code(400);
@@ -16,6 +17,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             exit;
         } else {
             if (password_verify($_POST['password'], $result['pass'])) {
+                $_SESSION['id'] = $result['id'];
+                $_SESSION['time'] = time();
                 header('Location: index.php');
             } else {
                 echo 'ログイン失敗';

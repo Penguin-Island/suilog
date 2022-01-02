@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- ホスト: 127.0.0.1
--- 生成日時: 2022-01-02 15:03:01
+-- 生成日時: 2022-01-02 17:29:06
 -- サーバのバージョン： 10.4.19-MariaDB
 -- PHP のバージョン: 8.0.6
 
@@ -21,17 +21,66 @@ SET time_zone = "+00:00";
 -- データベース: `place`
 --
 
+-- --------------------------------------------------------
+
 --
--- テーブルのデータのダンプ `places`
+-- テーブルの構造 `places`
 --
 
-`places` (`id`, `place`, `review`, `created_at`)
+CREATE TABLE `places` (
+  `id` int(11) NOT NULL,
+  `place` text NOT NULL,
+  `review` text NOT NULL,
+  `created_at` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- テーブルの構造 `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `username` varchar(30) NOT NULL,
+  `pass` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- テーブルのデータのダンプ `users`
 --
 
-`users` (`id`, `username`, `pass`)
+--
+-- ダンプしたテーブルのインデックス
+--
+
+--
+-- テーブルのインデックス `places`
+--
+ALTER TABLE `places`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- テーブルのインデックス `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- ダンプしたテーブルの AUTO_INCREMENT
+--
+
+--
+-- テーブルの AUTO_INCREMENT `places`
+--
+ALTER TABLE `places`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+
+--
+-- テーブルの AUTO_INCREMENT `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

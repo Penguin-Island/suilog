@@ -2,7 +2,7 @@
 session_start();
 require('dbconnect.php');
 
-if (isset($$_SESSION['id']) && ($_SESSION['time'] + 3600) > time()) {
+if (isset($_SESSION['id']) && ($_SESSION['time'] + 3600) > time()) {
 	//ログインしている
 	$_SESSION['time'] = time();
 
@@ -12,7 +12,8 @@ if (isset($$_SESSION['id']) && ($_SESSION['time'] + 3600) > time()) {
 	$result = $stmt->fetch();
 } else {
 	//ログインしていない
-	header('Location: login.php');
+	var_dump($_SESSION['id']);
+	//header('Location: login.php');
 	exit;
 }
 ?>

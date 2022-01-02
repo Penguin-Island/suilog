@@ -1,13 +1,14 @@
 <?php
+
 session_start();
+require ( __DIR__ . '/dbconnect.php');
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($_POST['username']) || empty($_POST['password'])) {
         http_response_code(400);
         echo 'ログイン失敗';
         exit;
     }
-    try {
-        $db = new PDO('mysql:dbname=place;host=127.0.0.1;charset=utf8', 'root', 'yz2576zs');
         $stmt = $db->prepare('SELECT pass FROM users WHERE username=?', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
         $stmt->bindValue(1, $_POST['username']);
         $stmt->execute();
@@ -25,9 +26,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 exit;
             }
         }
-    } catch (PDOException $e) {
-        echo 'DB接続エラー: ' . $e->getMessage();
-    }
 }
 ?>
 

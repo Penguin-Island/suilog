@@ -1,33 +1,30 @@
 <?php
+require(__DIR__ . '/dbconnect.php');
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($_POST['n-username']) || empty($_POST['n-password'])) {
         http_response_code(400);
         echo '登録失敗';
         exit;
     }
-    try {
-        $db = new PDO('mysql:dbname=place;host=127.0.0.1;charset=utf8', 'root', 'yz2576zs');
-        $stmt = $db->prepare('SELECT * FROM users WHERE username=?', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
-        $stmt->bindValue(1, $_POST['n-username']);
-        $stmt->execute();
-        $result = $stmt->fetch();
-        if ($result === false) {
-            if (preg_match('/^(?=.*[A-Z])(?=.*?\d)[a-zA-Z0-9]{8,100}$/', $_POST['n-password'])) {
-                    $stmt = $db->prepare('INSERT INTO users (username, pass) VALUES (:username, :pass)');
-                    $stmt->bindValue(':username', $_POST['n-username']);
-                    $stmt->bindValue(':pass', password_hash($_POST['n-password'], PASSWORD_DEFAULT));
-                    $stmt->execute();
-                    header('Location: index.php');
-            } else {
-                    echo 'パスワードは8文字以上100字以下、大文字アルファべットを少なくとも1つ、半角英数字の両方が含まれているもののみ使用できます。';
-                exit;
-            }
+    $stmt = $db->prepare('SELECT * FROM users WHERE username=?', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
+    $stmt->bindValue(1, $_POST['n-username']);
+    $stmt->execute();
+    $result = $stmt->fetch();
+    if ($result === false) {
+        if (preg_match('/^(?=.*[A-Z])(?=.*?\d)[a-zA-Z0-9]{8,100}$/', $_POST['n-password'])) {
+            $stmt = $db->prepare('INSERT INTO users (username, pass) VALUES (:username, :pass)');
+            $stmt->bindValue(':username', $_POST['n-username']);
+            $stmt->bindValue(':pass', password_hash($_POST['n-password'], PASSWORD_DEFAULT));
+            $stmt->execute();
+            header('Location: index.php');
         } else {
-            echo 'そのユーザーネームは使用できません';
+            echo 'パスワードは8文字以上100字以下、大文字アルファべットを少なくとも1つ、半角英数字の両方が含まれているもののみ使用できます。';
             exit;
         }
-    } catch (PDOException $e) {
-        echo 'DB接続エラー: ' . $e->getMessage();
+    } else {
+        echo 'そのユーザーネームは使用できません';
+        exit;
     }
 }
 ?>

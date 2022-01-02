@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require ( __DIR__ . '/dbconnect.php');
+require(__DIR__ . '/dbconnect.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($_POST['username']) || empty($_POST['password'])) {
@@ -9,23 +9,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo 'ログイン失敗';
         exit;
     }
-        $stmt = $db->prepare('SELECT pass FROM users WHERE username=?', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
-        $stmt->bindValue(1, $_POST['username']);
-        $stmt->execute();
-        $result = $stmt->fetch();
-        if ($result === false) {
+    $stmt = $db->prepare('SELECT pass FROM users WHERE username=?', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
+    $stmt->bindValue(1, $_POST['username']);
+    $stmt->execute();
+    $result = $stmt->fetch();
+    if ($result === false) {
+        echo 'ログイン失敗';
+        exit;
+    } else {
+        if (password_verify($_POST['password'], $result['pass'])) {
+            $_SESSION['id'] = $result['id'];
+            $_SESSION['time'] = time();
+            header('Location: index.php');
+        } else {
             echo 'ログイン失敗';
             exit;
-        } else {
-            if (password_verify($_POST['password'], $result['pass'])) {
-                $_SESSION['id'] = $result['id'];
-                $_SESSION['time'] = time();
-                header('Location: index.php');
-            } else {
-                echo 'ログイン失敗';
-                exit;
-            }
         }
+    }
 }
 ?>
 

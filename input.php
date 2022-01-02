@@ -1,5 +1,6 @@
 <?php
 session_start();
+require('dbconnect.php');
 
 if (isset($$_SESSION['id']) && ($_SESSION['time'] + 3600) > time()) {
 	//ログインしている

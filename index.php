@@ -13,7 +13,7 @@
 		<div class="full">
 			<div class="container">
 				<div class="spacer"></div>
-				<h2>さがす</h2>
+				<h2 id="srch">さがす</h2>
 				<h4>エリアからさがす</h4>
 				<a href="area/hokkaido.php" class="area-button">北海道</a>
 				<a href="area/tohoku.php" class="area-button">東北</a>

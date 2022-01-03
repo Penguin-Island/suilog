@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 if( !empty($_GET['btn_logout']) ) {
 	unset($_SESSION['id']);
     header('Location: login.php');

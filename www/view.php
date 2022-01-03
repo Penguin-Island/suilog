@@ -14,6 +14,7 @@ require(__DIR__ . '/check.php');
 
   <div class="wave">
     <div class="container">
+    <div class="spacer"></div>
       <h2>思い出をみる</h2>
       
       <?php

@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <label for="username">ユーザー名</label>
                     <input type="text" id="username" name="username">
                     <label>Password</label>
-                    <input type="text" id="password" name="password" minlength="8">
+                    <input type="password" id="password" name="password" minlength="8">
                     <input class="log-submit" type="submit" value="ログイン">
                 </form>
             </div>

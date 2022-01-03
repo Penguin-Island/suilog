@@ -1,6 +1,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="/suilog/js/raindrops-pen.js"></script>
+<script src="/js/raindrops-pen.js"></script>
 <script>
 	jQuery(".wave").raindrops({
 		color: "#c4e9e6",

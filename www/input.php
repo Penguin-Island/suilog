@@ -72,7 +72,7 @@ if (isset($_SESSION['id']) && ($_SESSION['time'] + 3600) > time()) {
 							<i class="fa fa-star-o"></i>
 						</div>
 
-						<script src='suilog/js/rating.js'>
+						<script src='/js/rating.js'>
 						</script>
 
 						<div class="form">

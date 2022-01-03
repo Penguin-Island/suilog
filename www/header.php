@@ -7,12 +7,12 @@ if( !empty($_GET['btn_logout']) ) {
 ?>
 
 <header>
-    <h1 class="title"><a href="/suilog/" class="title-a">すいログ</a></h1>
+    <h1 class="title"><a href="/" class="title-a">すいログ</a></h1>
     <nav class="nav">
         <ul class="menu-group">
-            <li class="menu-item"><a href="www/" class="menu-item-a">Top</a></li>
-            <li class="menu-item"><a href="www/#srch" class="menu-item-a">さがす</a></li>
-            <li class="menu-item"><a href="www/#review" class="menu-item-a">おもいで</a></li>
+            <li class="menu-item"><a href="/" class="menu-item-a">Top</a></li>
+            <li class="menu-item"><a href="#srch" class="menu-item-a">さがす</a></li>
+            <li class="menu-item"><a href="#review" class="menu-item-a">おもいで</a></li>
         </ul>
     </nav>
 

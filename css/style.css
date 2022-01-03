@@ -72,16 +72,22 @@ header {
   text-decoration: none;
 }
 
-.menu-item {
+.menu-item, .login-item {
   list-style: none;
   text-decoration: none;
   display: inline-block;
   padding: 20px;
 }
 
-.menu-item-a {
+.menu-item-a, .login-item-a {
   color: #fff;
   text-decoration: none;
+}
+
+input[name=btn_logout] {
+	background-color: #000;
+  border: none;
+  color: #fff;
 }
 
 .head-search {

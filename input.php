@@ -12,8 +12,7 @@ if (isset($_SESSION['id']) && ($_SESSION['time'] + 3600) > time()) {
 	$result = $stmt->fetch();
 } else {
 	//ログインしていない
-	var_dump($_SESSION['id']);
-	//header('Location: login.php');
+	header('Location: login.php');
 	exit;
 }
 ?>

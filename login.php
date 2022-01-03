@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo 'ログイン失敗';
         exit;
     }
-    $stmt = $db->prepare('SELECT pass FROM users WHERE username=?', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
+    $stmt = $db->prepare('SELECT * FROM users WHERE username=?', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
     $stmt->bindValue(1, $_POST['username']);
     $stmt->execute();
     $result = $stmt->fetch();

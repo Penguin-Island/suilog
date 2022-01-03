@@ -1,5 +1,4 @@
 <?php
-session_start();
 require(__DIR__ . '/dbconnect.php');
 
 if (isset($_SESSION['id']) && ($_SESSION['time'] + 3600) > time()) {

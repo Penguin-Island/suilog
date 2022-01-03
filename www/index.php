@@ -8,7 +8,10 @@
 </head>
 
 <body>
-	<?php require __DIR__ . '/header.php'; ?>
+	<?php 
+	session_start();
+	require(__DIR__ . '/header.php');
+	?>
 	<div class="wave">
 		<div class="full">
 			<div class="container">

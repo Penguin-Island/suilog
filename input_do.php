@@ -1,4 +1,5 @@
 <?php
+session_start();
 require ( __DIR__ . '/dbconnect.php');
 //input.php からのフォームを受け取る
 
@@ -20,7 +21,12 @@ header('Location: input.php');
 <body>
     <pre>
     <?php
-        $db->exec('INSERT INTO places SET place="' . $_POST['name'] . '", review="' . $_POST['memo'] . '", created_at=NOW()');
+	$stmt = $db->prepare('INSERT INTO places (userid, place, date, review, created_at) VALUES (:userid, :place, :date, :review, NOW())');
+    $stmt->bindValue(':userid', $_SESSION['id']);
+    $stmt->bindValue(':place', $_POST['name']);
+    $stmt->bindValue(':date', $_POST['date']);
+    $stmt->bindValue(':review', $_POST['memo']);
+    $stmt->execute();
     ?>
     </pre>
 </body>

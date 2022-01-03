@@ -1,3 +1,6 @@
+<?php
+require(__DIR__ . '/check.php');
+?>
 <!DOCTYPE html>
 <html>
 
@@ -14,14 +17,14 @@
       <h2>思い出をみる</h2>
       
       <?php
-      require ( __DIR__ . '/dbconnect.php');
-      $places = $db->query('SELECT COUNT(id) FROM places');
+      $cnt = $db->prepare('SELECT COUNT(*) AS record_count FROM places WHERE userid=?');
+      $cnt->bindValue(1, $_SESSION['id']);
+      $cnt->execute();
+      $cntresult = $cnt->fetch();
       ?>
 
       <article>
-      <?php while ($place = $places->fetch()):?>
-        <h4>みんなの思い出 <?= $place['COUNT(id)']?>件</h4>
-        <?php endwhile; ?>
+        <h4>思い出 <?= $cntresult['record_count']?>つ</h4>
       </article>
       <div class="grad-wrap">
     <input id="trigger1" class="grad-trigger" type="checkbox">
@@ -30,14 +33,16 @@
 
       <div class="all-form">
       <?php
-      $places = $db->query('SELECT * FROM places ORDER BY id DESC');
+      $plc = $db->prepare('SELECT * FROM places WHERE userid=? ORDER BY id DESC');
+      $plc->bindValue(1, $_SESSION['id']);
+      $plc->execute();
       ?>
 
       <article>
-      <?php while ($place = $places->fetch()):?>
-        <p><?= $place['place']?></p>
-        <p><?= $place['review']?></p>
-        <p><?= $place['created_at']?></p>
+      <?php while ($plcresult = $plc->fetch()):?>
+        <p><?= $plcresult['place']?></p>
+        <p><?= $plcresult['review']?></p>
+        <p><?= $plcresult['created_at']?></p>
         <hr>
       <?php endwhile; ?>
       </article>

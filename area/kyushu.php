@@ -13,11 +13,7 @@
   $json = file_get_contents(__DIR__ . '/area.json');
   $arr = json_decode($json, true); ?>
   <?php
-  try {
-    $db = new PDO('mysql:dbname=place;host=127.0.0.1;charset=utf8', 'root', 'yz2576zs');
-  } catch (PDOException $e) {
-    echo 'DB接続エラー: ' . $e->getMessage();
-  }
+  require(__DIR__ . '/../dbconnect.php');
   $stmt = $db->prepare('SELECT review FROM places WHERE place = ? ORDER BY id DESC', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
   ?>
 

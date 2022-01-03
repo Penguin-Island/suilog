@@ -1,3 +1,4 @@
+<?php 	session_start();?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -9,7 +10,6 @@
 
 <body>
 	<?php 
-	session_start();
 	require(__DIR__ . '/header.php');
 	?>
 	<div class="wave">

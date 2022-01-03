@@ -14,7 +14,7 @@
   $arr = json_decode($json, true); ?>
   <?php
   require(__DIR__ . '/../dbconnect.php');
-  $stmt = $db->prepare('SELECT review FROM places WHERE place = ? ORDER BY id DESC', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
+  $stmt = $db->prepare('SELECT * FROM places WHERE place = ? ORDER BY id DESC', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
   ?>
 
   <div class="wave">
@@ -41,7 +41,8 @@
                 $stmt->execute();
                 while ($result = $stmt->fetch()) { ?>
                   <div class="review-item">
-                    <?= htmlspecialchars($result['review'], ENT_QUOTES | ENT_SUBSTITUTE, "UTF-8"); ?>
+                    <p><?= htmlspecialchars($result['userid'], ENT_QUOTES | ENT_SUBSTITUTE, "UTF-8"); ?></p>
+                    <p><?= htmlspecialchars($result['review'], ENT_QUOTES | ENT_SUBSTITUTE, "UTF-8"); ?></p>
                   </div>
                 <?php
                 }

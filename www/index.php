@@ -24,7 +24,8 @@
 				<a href="area/kanto.php" class="area-button">関東</a>
 				<br>
 				<a href="area/kinki.php" class="area-button">近畿</a>
-				<a href="area/chugoku.php" class="area-button">中国・四国</a>
+				<a href="area/chugoku.php" class="area-button">中国</a>
+				<a href="area/shikoku.php" class="area-button">四国</a>
 				<a href="area/kyushu.php" class="area-button">九州・沖縄</a>
 				<!--</br>
 

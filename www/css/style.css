@@ -67,6 +67,10 @@ header {
   background-position: center;
 }
 
+ header {
+  white-space: nowrap;
+}
+
 .title-a {
   color: #fff;
   text-decoration: none;
@@ -348,10 +352,10 @@ div.button {
   content: '☆';
 }
 
-div.container {
+.container {
   margin: 0 auto;
   padding: 20px 20px 0 20px;
-
+  white-space: nowrap;
 }
 
 

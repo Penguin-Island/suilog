@@ -27,10 +27,6 @@
 				<a href="area/chugoku.php" class="area-button">中国</a>
 				<a href="area/shikoku.php" class="area-button">四国</a>
 				<a href="area/kyushu.php" class="area-button">九州・沖縄</a>
-				<!--</br>
-
-				<h4>人気順からさがす</h4>
-				<a href="input.php" class="st-button">人気順</a><br>-->
 
 				<h2 id="review">おもいで</h2>
 				<a href="input.php" class="st-button">記録する</a>

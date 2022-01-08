@@ -1,8 +1,8 @@
 <?php
-if( !empty($_GET['btn_logout']) ) {
-	unset($_SESSION['id']);
+if (!empty($_GET['btn_logout'])) {
+    unset($_SESSION['id']);
     header('Location: login.php');
-	exit;
+    exit;
 }
 ?>
 
@@ -24,8 +24,10 @@ if( !empty($_GET['btn_logout']) ) {
     <ul class="login-group">
         <li class="login-item"><a href="login.php" class="login-item-a">ログイン</a></li>
         <li class="login-item"><a href="regist.php" class="login-item-a">新規登録</a></li>
-        <li class="login-item"><form method="get" action="">
-    <input type="submit" name="btn_logout" value="ログアウト">
-</form></li>
+        <li class="login-item">
+            <form method="get" action="">
+                <input type="submit" name="btn_logout" value="ログアウト">
+            </form>
+        </li>
     </ul>
 </header>

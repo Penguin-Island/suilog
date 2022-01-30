@@ -28,25 +28,11 @@
           <?php
           foreach ($data['aquariums'] as $detail) {
           ?>
-            <h3><?= $detail['name'] ?></h3>
             <div class="basho">
+              <h3><a href="<?= $detail['url'] ?>"><?= $detail['name'] ?></a></h3>
               <div class="detail">
-                <p>HP：<a href="<?= $detail['url'] ?>"> <?= $detail['url'] ?></a></p>
-                <p>所在地：<?= $detail['address'] ?></p>
                 <iframe src="<?= $detail['map'] ?>" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-              </div>
-              <div class="detail-review">
-                <h4>みんなのおもいで</h4>
-                <?php $stmt->bindValue(1, $detail['name']);
-                $stmt->execute();
-                while ($result = $stmt->fetch()) { ?>
-                  <div class="review-item">
-                    <p><?= htmlspecialchars($result['userid'], ENT_QUOTES | ENT_SUBSTITUTE, "UTF-8"); ?></p>
-                    <p><?= htmlspecialchars($result['review'], ENT_QUOTES | ENT_SUBSTITUTE, "UTF-8"); ?></p>
-                  </div>
-                <?php
-                }
-                ?>
+                <p><?= $detail['address'] ?></p>
               </div>
             </div>
           <?php

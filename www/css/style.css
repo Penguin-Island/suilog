@@ -120,9 +120,7 @@ input[name=btn_logout] {
 
 body {
   font-family: "メイリオ";
-  color: #fff;
-  background-color: #000;
-  text-shadow: 1px 1px 5px #000;
+  background-color: #fff;
   margin: 0;
 }
 
@@ -154,6 +152,7 @@ input[type=submit]:hover {
 }
 
 h2 {
+  color: #2E75B6;
   padding: 5px 10px;
 }
 
@@ -197,9 +196,33 @@ h2 {
   opacity: 0.8;
 }
 
+/*エリアで探す*/
+.back {
+  background: #fff;
+}
+
+div.spacer {
+  height: 70px;
+}
+
+div.basho {
+  margin: 20px 0;
+  padding: 10px 0;
+  text-align: center;
+  background: #F2F2F2;
+  color: #5B9BD5;
+}
+
+h3 {
+  text-shadow: none;
+  padding: 10px;
+}
+
+a {
+  color: #5B9BD5;
+}
 
 /*ページ*：みんなの思い出をみる*/
-
 
 .grad-btn {
   /*.grad-btnのCSSは表示/非表示の動作には関係ないので、ご自由にどうぞ。*/
@@ -356,49 +379,4 @@ div.button {
   margin: 0 auto;
   padding: 20px 20px 0 20px;
   white-space: nowrap;
-}
-
-
-/*エリアで探す*/
-.back {
-  background: linear-gradient(#010a34, #000);
-}
-
-div.spacer {
-  height: 70px;
-}
-
-div.basho {
-  display: flex;
-  margin: 0 20px;
-  color: #fff;
-  text-shadow: none;
-}
-
-div.detail {
-  flex: 1;
-  text-align: center;
-}
-
-div.detail-review {
-  flex: 1;
-  background: #e0e4f7;
-  text-align: center;
-  color: #000;
-}
-
-div.review-item {
-  padding: 10px;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-h3 {
-  background-color: #fff;
-  color: #000;
-  text-shadow: none;
-  padding: 10px;
 }

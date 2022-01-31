@@ -4,6 +4,7 @@
 
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>すいログ -水族館をさがす・レビューする-</title>
 </head>

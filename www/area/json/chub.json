@@ -1,0 +1,101 @@
+[
+    {
+        "prefecture": "新潟",
+        "aquariums": [
+            {
+                "name": "新潟市水族館 マリンピア日本海",
+                "url": "https://www.marinepia.or.jp/",
+                "address": "〒951-8555 新潟市中央区西船見町5932-445",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.2892758270955!2d139.02581161532194!3d37.9236719797326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4c9e0c1cec981%3A0xbd49fb309db003df!2z5paw5r2f5biC5rC05peP6aSoIOODnuODquODs-ODlOOCouaXpeacrOa1tw!5e0!3m2!1sja!2sjp!4v1643380820812!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "富山",
+        "aquariums": [
+            {
+                "name": "魚津水族館",
+                "url": "https://www.uozu-aquarium.jp/",
+                "address": "〒937-0857 富山県魚津市三ケ1390",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d408585.0511089043!2d136.89340470178462!3d36.86472622656941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff7a4bd301526a7%3A0xbe46871f4ae41060!2z6a2a5rSl5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643381537001!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "石川",
+        "aquariums": [
+            {
+                "name": "のとじま水族館",
+                "url": "https://www.notoaqua.jp/",
+                "address": "〒926-0216 石川県七尾市能登島曲町15部40",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d407059.01681451086!2d136.70207083281247!3d37.1491667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff725d4e247deb9%3A0xa7b1dbf706d68791!2z44Gu44Go44GY44G-5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643381563618!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "福井",
+        "aquariums": [
+            {
+                "name": "越前松島水族館",
+                "url": "https://www.echizen-aquarium.com/index.html",
+                "address": "〒913-0065 福井県坂井市三国町崎74-2-3",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d413640.4521638565!2d135.71447931187467!3d35.908642860785605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8e5af256f3bd3%3A0x765dc3b784e3d1a5!2z6LaK5YmN5p2-5bO25rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643381616151!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "山梨",
+        "aquariums": [
+            {
+                "name": "森の中の水族館。－山梨県立富士湧水の里水族館－",
+                "url": "http://www.morinonakano-suizokukan.com/index.html",
+                "address": "〒401-0511 山梨県南都留郡忍野村忍草3098-1 さかな公園内",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.966773676795!2d138.82403598711113!3d35.45561700298869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60196699775a718b%3A0xb0a7669b68a38bbc!2z5bGx5qKo55yM56uL5a-M5aOr5rmn5rC044Gu6YeM5rC05peP6aSoIOajruOBruS4reOBruawtOaXj-mkqA!5e0!3m2!1sja!2sjp!4v1643381648295!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "長野",
+        "aquariums": [
+            {
+                "name": "蓼科アミューズメント水族館",
+                "url": "https://www.tateshina-aquarium.jp/",
+                "address": "長野県茅野市北山4035-2409",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d825398.1568965286!2d137.56115244391214!3d36.08833078448632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c4efe768eb93d%3A0x8f77fa17676613ac!2z6JO856eR44Ki44Of44Ol44O844K644Oh44Oz44OI5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643381679015!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "岐阜",
+        "aquariums": [
+            {
+                "name": "世界淡水魚園水族館 アクア・トト ぎふ",
+                "url": "https://aquatotto.com/",
+                "address": "〒501-6021 岐阜県各務原市川島笠田町1453",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416428.8873212831!2d136.5302486328125!3d35.37175740000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003a7e8ce6af46d%3A0x4ee95ed13835f4d0!2z5LiW55WM5reh5rC06a2a5ZyS5rC05peP6aSoIOOCouOCr-OCouODu-ODiOODiCDjgY7jgbU!5e0!3m2!1sja!2sjp!4v1643381704837!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "静岡",
+        "aquariums": [
+            {
+                "name": "沼津港深海水族館シーラカンス・ミュージアム",
+                "url": "http://www.numazu-deepsea.com/",
+                "address": "〒410-0845 静岡県沼津市千本港町83番地",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1674475.3472749265!2d137.23664678589722!3d34.94508609691094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60198f93644c44d9%3A0x4f0e7d8c9e98f5fc!2z5rK85rSl5riv5rex5rW35rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643381757254!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "愛知",
+        "aquariums": [
+            {
+                "name": "名古屋港水族館",
+                "url": "https://nagoyaaqua.jp/",
+                "address": "〒455-0033 愛知県名古屋市港区港町1番3号",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d418649.59877624316!2d136.75896072579596!3d34.9390603629688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600379a0d3c924b3%3A0xa1a962dc2785debe!2z5ZCN5Y-k5bGL5riv5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643381783297!5m2!1sja!2sjp"
+            }
+        ]
+    }
+]

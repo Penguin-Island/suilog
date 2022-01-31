@@ -1,0 +1,75 @@
+[
+    {
+        "prefecture": "三重",
+        "aquariums": [
+            {
+                "name": "鳥羽水族館",
+                "url": "https://www.aquarium.co.jp/",
+                "address": "〒517-8517 三重県鳥羽市鳥羽3-3-6",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52613.604367993736!2d136.78406186142595!3d34.4940032047889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003f5eb36405555%3A0xba83dea359328c8!2z6bOl57695rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643537830614!5m2!1sja!2sjp"
+            },
+            {
+                "name": "伊勢シーパラダイス",
+                "url": "https://ise-seaparadise.com/",
+                "address": "〒519-0602 三重県伊勢市二見町江580",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52613.31679935967!2d136.7837732114291!3d34.494458954758365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60045786b6e3dded%3A0xd3e7519ae5d98399!2z5LyK5Yui44K344O844OR44Op44OA44Kk44K5!5e0!3m2!1sja!2sjp!4v1643537925853!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "滋賀",
+        "aquariums": [
+            {
+                "name": "琵琶湖博物館 水族展示室",
+                "url": "https://www.biwahaku.jp/exhibition/aqua.html",
+                "address": "〒525-0001 滋賀県草津市下物町1091",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d417528.0722056234!2d135.80872703468324!3d35.15816537137118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600175d803888225%3A0xb4d70336caec2db7!2z55C155C25rmW5Y2a54mp6aSo5rC05peP5bGV56S65a6k!5e0!3m2!1sja!2sjp!4v1643537967450!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "京都",
+        "aquariums": [
+            {
+                "name": "京都水族館",
+                "url": "https://www.kyoto-aquarium.com/index.html",
+                "address": "〒600-8835 京都市下京区観喜寺町35-1",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.7632130204206!2d135.74549641523998!3d34.98759538036177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001061c0b78dc5d%3A0x5417da24aac74659!2z5Lqs6YO95rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643538009143!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "大阪",
+        "aquariums": [
+            {
+                "name": "海遊館",
+                "url": "https://www.kaiyukan.com/",
+                "address": "〒552-0022 大阪市港区海岸通1-1-10",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0073155367986!2d135.42677581523103!3d34.65451818044635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e8f48c0da9cd%3A0x6f83c520ae082ccc!2z5rW36YGK6aSo!5e0!3m2!1sja!2sjp!4v1643538044391!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "兵庫",
+        "aquariums": [
+            {
+                "name": "姫路市立水族館",
+                "url": "https://www.city.himeji.lg.jp/aqua/",
+                "address": "〒670-0971 兵庫県姫路市西延末440",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d837219.6118739451!2d134.4866633460789!3d34.94685491782058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554e05b99711531%3A0x7d7e2752f5b5600b!2z5aer6Lev5biC56uL5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643538081092!5m2!1sja!2sjp"
+            },
+            {
+                "name": "神戸市立須磨海浜水族園",
+                "url": "https://kobe-sumasui.jp/",
+                "address": "〒654-0049 兵庫県神戸市須磨区若宮町1丁目3-5",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13129.69851021221!2d135.11891823186502!3d34.64397768718326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000851271d34db7%3A0xfd3628fa70d76944!2z56We5oi45biC56uL6aCI56Oo5rW35rWc5rC05peP5ZyS!5e0!3m2!1sja!2sjp!4v1643538286103!5m2!1sja!2sjp"
+            },
+            {
+                "name": "城崎マリンワールド",
+                "url": "https://marineworld.hiyoriyama.co.jp/",
+                "address": "〒669-6192 兵庫県豊岡市瀬戸1090",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12967.509604433992!2d134.81631713233503!3d35.65539208320328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5fffb6434643c11f%3A0xcf8bf6b80288d464!2z5Z-O5bSO44Oe44Oq44Oz44Ov44O844Or44OJ!5e0!3m2!1sja!2sjp!4v1643538343339!5m2!1sja!2sjp"
+            }
+        ]
+    }
+]

@@ -8,20 +8,43 @@
 </head>
 
 <body>
-    <?php require __DIR__ . '/../header.php'; ?>
+  <?php require __DIR__ . '/../header.php'; ?>
+  <?php
+  $json = file_get_contents(__DIR__ . '/json/ki.json');
+  $arr = json_decode($json, true); ?>
+  <?php
+  require(__DIR__ . '/../dbconnect.php');
+  $stmt = $db->prepare('SELECT * FROM places WHERE place = ? ORDER BY id DESC', array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
+  ?>
 
-    <div class="wave">
-        <div class="back">
-            <div class="container" style="height: 500px;">
-                <div class="spacer"></div>
-                <p style="text-align: center">
-                    準備中
-                    （九州・沖縄エリアのページをご利用いただけます）
-                </p>
+  <div class="wave">
+    <div class="back">
+      <div class="container">
+        <div class="spacer"></div>
+        <?php
+        foreach ($arr as $data) {
+        ?>
+          <h2><?= $data['prefecture'] ?></h2>
+          <?php
+          foreach ($data['aquariums'] as $detail) {
+          ?>
+            <h3><a href="<?= $detail['url'] ?>"><?= $detail['name'] ?></a></h3>
+            <div class="basho">
+              <div class="detail">
+                <iframe src="<?= $detail['map'] ?>" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <p><?= $detail['address'] ?></p>
+              </div>
             </div>
-        </div>
+          <?php
+          }
+          ?>
+        <?php
+        }
+        ?>
+      </div>
     </div>
-    <?php require __DIR__ . '/../footer.php'; ?>
+  </div>
+  <?php require __DIR__ . '/../footer.php'; ?>
 </body>
 
 </html>

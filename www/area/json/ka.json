@@ -1,0 +1,97 @@
+[
+    {
+        "prefecture": "茨城",
+        "aquariums": [
+            {
+                "name": "アクアワールド茨城県大洗水族館",
+                "url": "https://www.aquamarine.or.jp/",
+                "address": "〒311-1301 茨城県東茨城郡大洗町",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3214.13248613204!2d140.59173561513055!3d36.33333878004742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60223163029ebc25%3A0x56608e569a1c880b!2z44Ki44Kv44Ki44Ov44O844Or44OJ6Iyo5Z-O55yM5aSn5rSX5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643282393171!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "栃木",
+        "aquariums": [
+            {
+                "name": "栃木県なかがわ水遊園",
+                "url": "https://tnap.jp/",
+                "address": "〒324-0404 栃木県大田原市佐良土2686",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.1642140732024!2d140.12644531514434!3d36.79061297995056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6021d09a5aedbc5d%3A0xa4eccf9cdf8e5d9f!2z5qCD5pyo55yM44Gq44GL44GM44KP5rC06YGK5ZyS!5e0!3m2!1sja!2sjp!4v1643282412143!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "群馬",
+        "aquariums": [
+            {
+                "name": "道の駅 水紀行館",
+                "url": "https://mizunofurusato.com/",
+                "address": "〒379-1617 群馬県利根郡みなかみ町湯原1681-1",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.2384901435757!2d138.96613821514364!3d36.764845779955785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601e149a2bc73f57%3A0x2d52582e96721e25!2z6YGT44Gu6aeFIOOBv-OBquOBi-OBv-awtOe0gOihjOmkqA!5e0!3m2!1sja!2sjp!4v1643282436259!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "埼玉",
+        "aquariums": [
+            {
+                "name": "羽生水郷公園（さいたま水族館）",
+                "url": "https://www.parks.or.jp/suizokukan/",
+                "address": "〒348-0011 埼玉県羽生市三田ヶ谷751-1",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1610.3816870972614!2d139.59530770814243!3d36.1723123450207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f339cade435e5%3A0x4a9d54954258424d!2z44GV44GE44Gf44G-5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643282461774!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "千葉",
+        "aquariums": [
+            {
+                "name": "鴨川シーワールド",
+                "url": "https://www.kamogawa-seaworld.jp/",
+                "address": "〒296-0041 千葉県鴨川市東町 1464-18",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1631.8358457188197!2d140.1175888581347!3d35.11490804508256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x603d5397489dce85%3A0xf0e06787fafa217!2z6bSo5bed44K344O844Ov44O844Or44OJ!5e0!3m2!1sja!2sjp!4v1643282492655!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "東京",
+        "aquariums": [
+            {
+                "name": "サンシャイン水族館",
+                "url": "https://sunshinecity.jp/aquarium/",
+                "address": "〒170-8630 東京都豊島区東池袋3-1 サンシャインシティ ワールドインポートマートビル屋上",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8899328225516!2d139.71796861511277!3d35.728925380183234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d6f41f03f85%3A0xe25bfe624782e3c9!2z44K144Oz44K344Oj44Kk44Oz5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643282510872!5m2!1sja!2sjp"
+            },
+            {
+                "name": "すみだ水族館",
+                "url": "https://www.sumida-aquarium.com/index.html",
+                "address": "〒131-0045 東京都墨田区押上1-1-2 東京スカイツリータウン・ソラマチ5F・6F",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.662174142285!2d139.8073968151122!3d35.7099300801876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ed6ddcaa63b%3A0x52f9e68583464160!2z44GZ44G_44Gg5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643282530474!5m2!1sja!2sjp"
+            },
+            {
+                "name": "東京都葛西臨海水族園",
+                "url": "https://www.tokyo-zoo.net/zoo/kasai/",
+                "address": "〒134-8587 東京都江戸川区臨海町6-2-3",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.506238094051!2d139.8599850151102!3d35.639897180204066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60187d4fb3f894eb%3A0xe2627a8ce4f4142a!2z6JGb6KW_6Ieo5rW35rC05peP5ZyS!5e0!3m2!1sja!2sjp!4v1643282616930!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "神奈川",
+        "aquariums": [
+            {
+                "name": "新江ノ島水族館",
+                "url": "https://www.enosui.com/",
+                "address": "〒251-0035 神奈川県藤沢市片瀬海岸2-19-1",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3255.8380729751625!2d139.47723931510058!3d35.31000478028241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60184ef97613a5af%3A0x679611b7d80b7d4f!2z5paw5rGf44OO5bO25rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643282633549!5m2!1sja!2sjp"
+            },
+            {
+                "name": "横浜・八景島シーパラダイス",
+                "url": "http://www.seaparadise.co.jp/",
+                "address": "〒236-0006 横浜市金沢区八景島 横浜・八景島シーパラダイス",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3254.7730029992845!2d139.64304121510136!3d35.33645798027604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601841797ab6104d%3A0x4165a6dc508fcd47!2z5qiq5rWc44O75YWr5pmv5bO244K344O844OR44Op44OA44Kk44K5!5e0!3m2!1sja!2sjp!4v1643282652782!5m2!1sja!2sjp"
+            }
+        ]
+    }
+]

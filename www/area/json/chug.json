@@ -1,0 +1,58 @@
+[
+    {
+        "prefecture": "島根",
+        "aquariums": [
+            {
+                "name": "しまね海洋館アクアス",
+                "url": "https://aquas.or.jp/",
+                "address": "〒697-0004 島根県浜田市久代町1117",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d834605.4255529254!2d131.94409241012764!3d35.20204882484358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a5b45a42a0f7d%3A0x1cff33b7c2e12d63!2z5bO25qC555yM56uL44GX44G-44Gt5rW35rSL6aSoIOOCouOCr-OCouOCuQ!5e0!3m2!1sja!2sjp!4v1643538427891!5m2!1sja!2sjp"
+            },
+            {
+                "name": "島根県立宍道湖自然館ゴビウス",
+                "url": "https://www.gobius.jp/",
+                "address": "〒691-0076 島根県出雲市園町1659-5",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d834605.4255529254!2d131.94409241012764!3d35.20204882484358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355714acd7fbd181%3A0x2214f08c2d12fc4b!2z5bO25qC555yM56uL5a6N6YGT5rmW6Ieq54S26aSoIOOCtOODk-OCpuOCuQ!5e0!3m2!1sja!2sjp!4v1643538446034!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "岡山",
+        "aquariums": [
+            {
+                "name": "渋川マリン水族館（玉野海洋博物館）",
+                "url": "https://www.city.tamano.lg.jp/site/kaihaku/",
+                "address": "〒706-0028 岡山県玉野市渋川2-6-1",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.8916431128973!2d133.9032506152256!3d34.45489838049847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553e4ffdf22c541%3A0x65576a9b6a4f27e4!2z5riL5bed44Oe44Oq44Oz5rC05peP6aSo77yI546J6YeO5rW35rSL5Y2a54mp6aSo77yJ!5e0!3m2!1sja!2sjp!4v1643538494916!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "広島",
+        "aquariums": [
+            {
+                "name": "宮島水族館 みやじマリン",
+                "url": "http://www.miyajima-aqua.jp/",
+                "address": "〒739-0534 広島県廿日市市宮島町10-3",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d843816.6627680402!2d131.75548946562495!3d34.2954961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355ab0cab65fbaa5%3A0x408be75a730da50f!2z44G_44KE44GY44Oe44Oq44OzIOWuruWztuawtOaXj-mkqA!5e0!3m2!1sja!2sjp!4v1643538552011!5m2!1sja!2sjp"
+            },
+            {
+                "name": "マリホ水族館",
+                "url": "https://mariho-aquarium.com/",
+                "address": "〒733-0036 広島県広島市西区観音新町4-14-35",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d844412.0144353193!2d132.23662839238725!3d34.236180492692725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355aa36bb7033a0f%3A0x78c0ade8f198e752!2z44Oe44Oq44Ob5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643538577830!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "山口",
+        "aquariums": [
+            {
+                "name": "市立しものせき水族館「海響館」",
+                "url": "http://www.kaikyokan.com/",
+                "address": "〒750-0036 山口県下関市あるかぽーと6-1",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1694036.6296978542!2d130.5684314264239!3d33.97544146356364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3543bd996b2366d9%3A0xdc06d7e1c49219fa!2z5biC56uL44GX44KC44Gu44Gb44GN5rC05peP6aSoIOa1t-mfv-mkqA!5e0!3m2!1sja!2sjp!4v1643538604594!5m2!1sja!2sjp"
+            }
+        ]
+    }
+]

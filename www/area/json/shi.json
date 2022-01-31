@@ -1,0 +1,70 @@
+[
+    {
+        "prefecture": "徳島",
+        "aquariums": [
+            {
+                "name": "日和佐うみがめ博物館カレッタ",
+                "url": "https://caretta.town.minami.lg.jp/index.html",
+                "address": "〒779-2304 徳島県海部郡美波町日和佐浦370-4",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.007117356525!2d134.53879171520677!3d33.734632080693494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3552fcd7f4be8f75%3A0xd849d0fabbeff363!2z5pel5ZKM5L2Q44GG44G_44GM44KB5Y2a54mp6aSo44Kr44Os44OD44K_!5e0!3m2!1sja!2sjp!4v1643538647551!5m2!1sja!2sjp"
+            },
+            {
+                "name": "海洋自然博物館 マリンジャム 島のちいさな水族館",
+                "url": "https://marine.kaiyo-kankou.jp/index.php/en/aquarium2/aquarium",
+                "address": "〒775-0513 徳島県海部郡海陽町宍喰浦字竹ケ島28-45",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d848356.9688246172!2d133.56222398906675!3d33.84083360016089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355266d650fde6b1%3A0x9fe89ca30f4b43fa!2z5rW35rSL6Ieq54S25Y2a54mp6aSoIOODnuODquODs-OCuOODo-ODoA!5e0!3m2!1sja!2sjp!4v1643538670314!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "香川",
+        "aquariums": [
+            {
+                "name": "新屋島水族館",
+                "url": "https://r.goope.jp/new-yashima-aq",
+                "address": "〒761-0111 香川県高松市屋島東町1785-1",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d422025.8729848756!2d133.75764479780258!3d34.27208524267007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553932dc6a07b7d%3A0x7239c35a3688dfb2!2z5paw5bGL5bO25rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643538797767!5m2!1sja!2sjp"
+            },
+            {
+                "name": "四国水族館",
+                "url": "https://shikoku-aquarium.jp/",
+                "address": "〒769-0201 香川県綾歌郡宇多津町浜一番丁4",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d422025.8729848756!2d133.75764479780258!3d34.27208524267007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553d94e09a53cdf%3A0xea3a8fd4ee6a8ac9!2z5Zub5Zu95rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643538819902!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "愛媛",
+        "aquariums": [
+            {
+                "name": " 虹の森公園 おさかな館",
+                "url": "https://morinokuni.or.jp/publics/index/27/",
+                "address": "〒798-2102 愛媛県北宇和郡松野町延野々1510-1",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d854379.0122367973!2d132.15003426562495!3d33.229350600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354f6f7f0692a13d%3A0x578528227542e4d!2z6Jm544Gu5qOu5YWs5ZySIOOBiuOBleOBi-OBqumkqA!5e0!3m2!1sja!2sjp!4v1643538852600!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "高知",
+        "aquariums": [
+            {
+                "name": "桂浜水族館",
+                "url": "https://katurahama-aq.jp/",
+                "address": "〒781-0262 高知県高知市浦戸778",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1710464.1820236978!2d132.33204906373786!3d33.14192253328045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354e1a16592b105b%3A0x5cc40ede3d2c7e95!2z5qGC5rWc5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643538877583!5m2!1sja!2sjp"
+            },
+            {
+                "name": "高知県立 足摺海洋館 SATOUMI",
+                "url": "https://kaiyoukan.jp/index.html",
+                "address": "〒787-0450 高知県土佐清水市三崎4032",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1710464.1820236975!2d132.33204906373786!3d33.141922533280464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354f4a82895c3127%3A0xa3497e550681690a!2z6Laz5pG65rW35rSL6aSoIFNBVE9VTUk!5e0!3m2!1sja!2sjp!4v1643538892631!5m2!1sja!2sjp"
+            },
+            {
+                "name": "むろと廃校水族館",
+                "url": "https://www.city.muroto.kochi.jp/pages/page0343.php",
+                "address": "〒781-7101 高知県室戸市室戸岬町533-2",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1710464.1820236978!2d132.33204906373786!3d33.14192253328045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354d89bc85735291%3A0x733d558b007f3ece!2z44KA44KN44Go5buD5qCh5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643538915442!5m2!1sja!2sjp"
+            }
+        ]
+    }
+]

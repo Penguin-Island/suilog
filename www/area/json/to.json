@@ -1,0 +1,68 @@
+[
+    {
+        "prefecture": "青森",
+        "aquariums": [
+            {
+                "name": "浅虫水族館",
+                "url": "http://asamushi-aqua.com/",
+                "address": "〒039-3501 青森県青森市浅虫字馬場山1-25",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.8319998069483!2d140.86058911527354!3d40.897499979312165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b8356da251207%3A0xee49424f7296c774!2z6Z2S5qOu55yM5Za25rWF6Jmr5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643282224255!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "岩手",
+        "aquariums": [
+            {
+                "name": "もぐらんぴあ",
+                "url": "https://www.moguranpia.com/",
+                "address": "〒028-7801 岩手県久慈市侍浜町麦生1-43-7",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.4506895572304!2d141.81363511525134!3d40.221280479388454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f84968631fefcbd%3A0x2633309aa877ade1!2z44KC44GQ44KJ44KT44G044GC!5e0!3m2!1sja!2sjp!4v1643282243098!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "宮城",
+        "aquariums": [
+            {
+                "name": "仙台うみの杜水族館",
+                "url": "http://www.uminomori.jp/umino/index.html",
+                "address": "〒983-0013 宮城県仙台市宮城野区中野4-6",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d783.0933999975659!2d140.9807497292201!3d38.270831648729526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f898897e1fb47e3%3A0x52cd635d24b06064!2z5LuZ5Y-w44GG44G_44Gu5p2c5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643282273700!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "秋田",
+        "aquariums": [
+            {
+                "name": "男鹿水族館GAO",
+                "url": "https://www.gao-aqua.jp/",
+                "address": "〒010-0673 秋田県男鹿市戸賀塩浜",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.964757284316!2d139.7024013152424!3d39.94217797942319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f903dcce980455d%3A0xe2b23aa42d28dc8b!2z55S36bm_5rC05peP6aSo77yn77yh77yv!5e0!3m2!1sja!2sjp!4v1643282297303!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "山形",
+        "aquariums": [
+            {
+                "name": "鶴岡市立加茂水族館",
+                "url": "https://kamo-kurage.jp/",
+                "address": "〒997-1206 山形県鶴岡市今泉字大久保657-1",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.089264814536!2d139.72247911520483!3d38.76165657959182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8c176b9473e611%3A0x4d46ac965a931577!2z6ba05bKh5biC56uL5Yqg6IyC5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643282313330!5m2!1sja!2sjp"
+            }
+        ]
+    },
+    {
+        "prefecture": "福島",
+        "aquariums": [
+            {
+                "name": "環境水族館アクアマリンふくしま",
+                "url": "https://www.aquamarine.or.jp/",
+                "address": "〒971-8101 福島県いわき市小名浜字辰巳町50",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3188.793497885031!2d140.89928601514893!3d36.94310157991938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60210e2091213d87%3A0x9c264437ae129ba0!2z44Ki44Kv44Ki44Oe44Oq44Oz44G144GP44GX44G-!5e0!3m2!1sja!2sjp!4v1643282350213!5m2!1sja!2sjp"
+            }
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "prefecture": "北海道",
+        "aquariums": [
+            {
+                "name": "おたる水族館",
+                "url": "https://otaru-aq.jp/",
+                "address": "〒047-0047 北海道小樽市祝津3-303",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.691350565035!2d141.00972561535204!3d43.236930479137776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b1e053ca52a85%3A0x1b305a22d361451!2z44GK44Gf44KL5rC05peP6aSo!5e0!3m2!1sja!2sjp!4v1643281781240!5m2!1sja!2sjp"
+            },
+            {
+                "name": "登別マリンパークニクス",
+                "url": "https://www.nixe.co.jp/",
+                "address": "〒059-0492 北海道登別市登別東町1-22",
+                "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.719286389104!2d141.1799414153254!3d42.45498847918072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f756477ac95e12f%3A0x750fe76fdf2bd584!2z55m75Yil44Oe44Oq44Oz44OR44O844Kv44OL44Kv44K5!5e0!3m2!1sja!2sjp!4v1643282120895!5m2!1sja!2sjp"
+            }
+        ]
+    }
+]

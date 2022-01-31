@@ -10,7 +10,7 @@
 <body>
   <?php require __DIR__ . '/../header.php'; ?>
   <?php
-  $json = file_get_contents(__DIR__ . '/area.json');
+  $json = file_get_contents(__DIR__ . '/json/kyu.json');
   $arr = json_decode($json, true); ?>
   <?php
   require(__DIR__ . '/../dbconnect.php');

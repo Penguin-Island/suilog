@@ -34,24 +34,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/member.css">
     <title>新規登録 【すいログ】</title>
 </head>
 
 <body>
-    <div class="login-back">
-        <div class="container">
-            <div class="card">
-                <h1>新規登録</h1>
-                <form method="POST">
-                    <label for="username">ユーザー名</label>
-                    <input type="text" id="n-username" name="n-username">
-                    <label>Password</label>
-                    <input type="password" id="n-password" name="n-password" minlength="8">
-                    <input class="log-submit" type="submit" value="登録">
-                </form>
+    <div class="container">
+        <h1>新規登録（無料）</h1>
+        <form method="POST">
+            <div>
+                <label for="username">ユーザー名</label>
+                <input type="text" id="n-username" name="n-username">
             </div>
-        </div>
+            <div>
+                <label>パスワード</label>
+                <input type="password" id="n-password" name="n-password" minlength="8">
+                <input class="log-submit" type="submit" value="登録">
+            </div>
+        </form>
     </div>
 </body>
 

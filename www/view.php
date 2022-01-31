@@ -8,6 +8,7 @@ require(__DIR__ . '/check.php');
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
   <title>おもいでをふりかえる | すいログ</title>
 </head>
 
@@ -27,10 +28,6 @@ require(__DIR__ . '/check.php');
       $cntresult = $cnt->fetch();
       ?>
 
-      <article>
-        <h4>おもいで <?= $cntresult['record_count'] ?>つ</h4>
-      </article>
-
       <div class="all-form">
         <?php
         $plc = $db->prepare('SELECT * FROM places WHERE userid=? ORDER BY id DESC');
@@ -40,7 +37,7 @@ require(__DIR__ . '/check.php');
 
         <article>
           <?php while ($plcresult = $plc->fetch()) : ?>
-            <p><?= $plcresult['place'] ?></p>
+            <h3><?= $plcresult['place'] ?></h3>
             <p><?= $plcresult['review'] ?></p>
             <p><?= $plcresult['created_at'] ?></p>
             <hr>

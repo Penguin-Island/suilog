@@ -1,4 +1,4 @@
-<?php 	session_start();?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -9,29 +9,33 @@
 </head>
 
 <body>
-	<?php 
+	<?php
 	require(__DIR__ . '/header.php');
 	?>
 	<div class="wave">
-		<div class="full">
-			<div class="container">
-				<div class="spacer"></div>
-
-				<h2 id="srch">さがす</h2>
-				<h3>エリアからさがす</h3>
-				<a href="area/hokkaido.php" class="area-button">北海道</a>
-				<a href="area/tohoku.php" class="area-button">東北</a>
-				<a href="area/chubu.php" class="area-button">中部</a>
-				<a href="area/kanto.php" class="area-button">関東</a>
-				<br>
-				<a href="area/kinki.php" class="area-button">近畿</a>
-				<a href="area/chugoku.php" class="area-button">中国</a>
-				<a href="area/shikoku.php" class="area-button">四国</a>
-				<a href="area/kyushu.php" class="area-button">九州・沖縄</a>
-
-				<h2 id="review">おもいで</h2>
-				<a href="input.php" class="st-button">記録する</a>
-				<a href="view.php" class="st-button">ふりかえる</a>
+		<div class="container">
+			<div class="spacer"></div>
+			<div class="search">
+				<div class="position">
+					<h2 id="srch">さがす</h2>
+					<ul class="column">
+						<li><a href="area/hokkaido.php" class="area-button-b">北海道</a></li>
+						<li><a href="area/tohoku.php" class="area-button-w">東北</a></li>
+						<li><a href="area/chubu.php" class="area-button-b">中部</a></li>
+						<li><a href="area/kanto.php" class="area-button-w">関東</a></li>
+						<li><a href="area/kinki.php" class="area-button-b">近畿</a></li>
+						<li><a href="area/chugoku.php" class="area-button-w">中国</a></li>
+						<li><a href="area/shikoku.php" class="area-button-b">四国</a></li>
+						<li><a href="area/kyushu.php" class="area-button-w">九州・沖縄</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="memory">
+				<div class="position">
+					<h2 id="review">おもいで</h2>
+					<a href="input.php" class="st-button-b">記録する</a>
+					<a href="view.php" class="st-button-w">ふりかえる</a>
+				</div>
 			</div>
 		</div>
 	</div>

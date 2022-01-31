@@ -12,29 +12,6 @@ header {
   white-space: nowrap;
 }
 
-#username, #password {
-  margin: 10px;
-  display: inline-block;
-  border-radius: 3px;
-  box-sizing: border-box;
-  border: solid 1.5px #000;
-  outline: none;
-}
-
-.log-submit {
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 3px;
-  background: #000;
-  color: #fff;
-  outline: none;
-  text-decoration: none;
-}
 .title-a {
   color: #000;
   text-decoration: none;

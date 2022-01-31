@@ -1,0 +1,36 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    background-color: #fff;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    color: #2E75B6;
+    white-space: nowrap;
+  }
+
+  .title-a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .menu-item, .login-item {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .menu-item-a, .login-item-a {
+    color: #2E75B6;
+    text-decoration: none;
+  }
+  
+  input[name=btn_logout] {
+      background-color: #F2F2F2;
+    color: #2E75B6;
+    border: none;
+  }  

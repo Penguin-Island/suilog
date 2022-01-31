@@ -7,14 +7,15 @@ require(__DIR__ . '/check.php');
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/member.css">
 	<title>おもいでを記録 | すいログ</title>
 </head>
 
 <body>
 	<?php require __DIR__ . '/header.php'; ?>
 	<?php
-	$json = file_get_contents(__DIR__ . '/area/area.json');
+	$json = file_get_contents(__DIR__ . '/area/json/kyu.json');
 	$arr = json_decode($json, true); ?>
 
 	<div class="wave">
@@ -63,10 +64,11 @@ require(__DIR__ . '/check.php');
 
 						<div class="form">
 							<label for="memo">感想</label>
-							<textarea required id="memo" name="memo" placeholder="例:友人と行きました。"></textarea>
+							<textarea required id="memo" name="memo"></textarea>
 						</div>
 					</div>
-					<div class="button">
+
+					<div>
 						<input class="in-submit" type="submit" value="記録する">
 					</div>
 				</form>

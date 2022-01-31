@@ -28,8 +28,8 @@
           <?php
           foreach ($data['aquariums'] as $detail) {
           ?>
+            <h3><a href="<?= $detail['url'] ?>"><?= $detail['name'] ?></a></h3>
             <div class="basho">
-              <h3><a href="<?= $detail['url'] ?>"><?= $detail['name'] ?></a></h3>
               <div class="detail">
                 <iframe src="<?= $detail['map'] ?>" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <p><?= $detail['address'] ?></p>

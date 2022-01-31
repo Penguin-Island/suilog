@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/style.css">
-    <title>四国エリアの水族館【すいログ】</title>
+    <title>四国エリアの水族館 | すいログ</title>
 </head>
 
 <body>

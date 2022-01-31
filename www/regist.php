@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/member.css">
-    <title>新規登録 【すいログ】</title>
+    <title>新規登録 | すいログ</title>
 </head>
 
 <body>

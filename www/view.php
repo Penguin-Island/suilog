@@ -7,8 +7,8 @@ require(__DIR__ . '/check.php');
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>おもいでをふりかえる | すいログ</title>
 </head>
 

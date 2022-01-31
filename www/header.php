@@ -11,8 +11,8 @@ if (!empty($_GET['btn_logout'])) {
     <nav class="nav">
         <ul class="menu-group">
             <li class="menu-item"><a href="/" class="menu-item-a">Top</a></li>
-            <li class="menu-item"><a href="#srch" class="menu-item-a">さがす</a></li>
-            <li class="menu-item"><a href="#review" class="menu-item-a">おもいで</a></li>
+            <li class="menu-item"><a href="/#srch" class="menu-item-a">さがす</a></li>
+            <li class="menu-item"><a href="/#review" class="menu-item-a">おもいで</a></li>
         </ul>
     </nav>
 
@@ -22,8 +22,8 @@ if (!empty($_GET['btn_logout'])) {
     </form>
 
     <ul class="login-group">
-        <li class="login-item"><a href="login.php" class="login-item-a">ログイン</a></li>
-        <li class="login-item"><a href="regist.php" class="login-item-a">新規登録</a></li>
+        <li class="login-item"><a href="/login.php" class="login-item-a">ログイン</a></li>
+        <li class="login-item"><a href="/regist.php" class="login-item-a">新規登録</a></li>
         <li class="login-item">
             <form method="get" action="">
                 <input type="submit" name="btn_logout" value="ログアウト">

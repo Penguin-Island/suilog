@@ -1,7 +1,13 @@
 body {
-    background: #F2F2F2;
+    margin: 0;
     text-align: center;
+    background: #F2F2F2;
     color: #5B9BD5;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif;
+}
+
+div.spacer {
+    height: 70px;
 }
 
 h1 {
@@ -12,7 +18,7 @@ form {
     text-align: center;
 }
 
-input {
+input, select, textarea {
     margin: 10px auto;
     border-radius: 3px;
     box-sizing: border-box;
@@ -20,7 +26,12 @@ input {
     outline: none;
 }
 
-.log-submit {
+textarea {
+    min-width: 50%;
+    min-height: 100px;
+}
+
+.log-submit, .in-submit {
     display: block;
     margin: 20px auto;
     padding: 10px 50px;
@@ -38,4 +49,13 @@ input {
 
 a {
     color: #5B9BD5;
+}
+
+.wave {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    display: block;
 }

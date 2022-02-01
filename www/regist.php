@@ -34,12 +34,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/member.css">
     <title>新規登録 | すいログ</title>
 </head>
 
 <body>
+    <?php
+    require(__DIR__ . '/header.php');
+    ?>
     <div class="container">
+        <div class="spacer"></div>
         <h1>新規登録（無料）</h1>
         <form method="POST">
             <div>

@@ -27,7 +27,6 @@ h2 {
 }
 
 canvas {
-  /* デフォルトがinlineだからblockにして隙間をなくす */
   display: block;
 }
 
@@ -54,7 +53,6 @@ input[type=submit]:hover {
 
 .column{
   list-style-type: none;
-  padding: 0;
   column-count: 2;
   max-width: 600px;
  }
@@ -146,27 +144,16 @@ a {
 /*おもいで　ふりかえる*/
 
 .grad-btn {
-  /*.grad-btnのCSSは表示/非表示の動作には関係ないので、ご自由にどうぞ。*/
   font-size: 13pt;
-  /* 文字サイズ */
   text-align: center;
-  /* 文字位置   */
   cursor: pointer;
-  /* カーソル   */
   padding: 13px 10px;
-  /* 余白       */
   background: #f7f2f2;
-  /* 背景色     */
   color: #000;
-  /* 文字色     */
   line-height: 1em;
-  /* 1行の高さ  */
   opacity: 1;
-  /* 透明度     */
   transition: .3s;
-  /* なめらか変化 */
   border-radius: 5px;
-  /*縁を丸める*/
   text-decoration: none;
   width: 170px;
 }
@@ -179,7 +166,6 @@ a {
   position: relative;
   overflow: hidden;
   height: 500px;
-  /*隠した状態の高さ*/
 }
 
 .grad-item::before {
